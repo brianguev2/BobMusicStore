@@ -1,0 +1,136 @@
+.navbar
+{
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+
+.jumbotron 
+{
+	margin-bottom: 0;
+}
+
+footer
+{
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+/* CSS rules for the dropdown button*/
+.dropbtn 
+{
+	display: inline-block;
+	color: #9d9d9d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	min-width: 200px;
+	background-color: #222222;
+	border: none;
+}
+
+/* The container <div> which positions the dropdown content*/
+.dropdown 
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+/* CSS rules for the dropdown content*/
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	background-color: #666666;
+	min-width: 200px;  
+	z-index:1000;    
+}
+
+/* Links inside the dropdown*/
+.dropdown-content a 
+{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Change color of dropdown links on hover*/
+.dropdown-content a:hover 
+{       
+background-color: #a6a6a6;
+}
+
+/* Show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .dropbtn 
+{
+	background-color: ##d6d6c2;
+	color: #fff;
+}
+
+/* Sets rules for container holding picture and description*/
+#wrap 
+{
+	width:1000px;
+	margin:0 auto;
+	background:white;
+}
+
+/* Sets rules for container with product picture*/
+#picture 
+{
+	float:left;
+	width:450px;
+	padding:10px;
+	background:white;
+}
+
+/* Sets rules for container with product description*/
+#description 
+{
+	float:right;
+	width:550px;
+	padding:10px;
+	background:white;
+}
+
+#description h2
+{
+	color: #990000;
+}
+
+/* Sets rules for Features*/
+#features 
+{
+	clear:both;
+	margin-left:300px;
+	background:white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Customize the Add to Cart button*/
+.cartButton
+{
+	background-color: #990000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
